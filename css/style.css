@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+#container{
+    background-color: aliceblue;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 100px;
+    box-shadow: 14px 20px 5px grey;
+}
+.brand-logo{
+    background: url(../image/user.jpg);
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+}
+.brand-tittle{
+    color: rgb(63, 138, 250);
+}
+
+label,input,button{
+    display: block;
+    width: 100%;
+    border: none;
+}
+label{
+    color: rgb(63, 138, 250);
+    margin-top: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 500px; 
+}
+button{
+    background-color: rgb(63, 138, 250);
+    color: white;
+    width: 40%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 500px ;
+    cursor: pointer;
+}
+.input-1{
+    text-align: left;
+}
